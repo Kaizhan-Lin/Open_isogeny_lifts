@@ -2,6 +2,8 @@
 
 SageMath (version 10.10) implementation accompanying *Computing Elliptic-Curve Endomorphism Traces via Open Isogeny Lifts*. The code computes the trace of a decoded isogeny chain by open lifting and verifies a prescribed trace at reduced precision. It uses the lifting routines of Panny, Robert and Sferlazza and includes their closed-lifting method for comparison. [PRS implementation](https://gitlab.inria.fr/isogenies/lifting_traces)
 
+Parts of this implementation were developed with the assistance of generative AI tools.
+
 ## How to run
 
 Compute the trace on Houben's published base cycle using open lifting with batched Vélu evaluation. At the default precision `s = 9`, the expected trace is **29171033**. [Source of the base cycle](https://github.com/houbenmr/LargeDiscriminantOrientations/tree/02389279e5a265cffec2c9013646c00fa5b5e654)
